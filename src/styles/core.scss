@@ -1,0 +1,25 @@
+@import 'reset';
+
+body {
+  background-color: #333;
+}
+
+.app {
+  background-color: #666;
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 24pt;
+  font-family: sans-serif;
+}
